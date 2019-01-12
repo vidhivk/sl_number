@@ -14,10 +14,7 @@ package com.numberproj.number;
 			numberWords = new NumberWords() ;
 		}
 
-		@Test
-		public void numberOutOfRangeReturnsError() {
-			Assert.assertEquals( "Error", "Number out of range", numberWords.toWords( 1) ) ;
-		}
+		
 
 	}
 	
